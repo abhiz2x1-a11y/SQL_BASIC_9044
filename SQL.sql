@@ -146,7 +146,7 @@ Values(12345,'micromax', 2, 12.30, '2026-02-11', 'lal bagh chauraha');
 select * from sales.sales_2026
 where orderid = '12345';
 
---corecting date 
+--correcting date 
 
 UPDATE sales.sales_2026
 SET order_timestamp =
@@ -193,3 +193,4 @@ ORDER BY revenue DESC;
 
 
  
+
